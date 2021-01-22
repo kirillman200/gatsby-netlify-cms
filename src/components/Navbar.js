@@ -37,7 +37,7 @@ const Navbar = class extends React.Component {
 			<nav className='navbar is-transparent' role='navigation' aria-label='main-navigation'>
 				<div className='container'>
 					<div className='navbar-brand'>
-						<Link to='/' className='navbar-item' style='font-size: 36px' title='Logo'>
+						<Link to='/' className='navbar-item logo' title='Logo'>
 							{/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}Travel
 						</Link>
 						{/* Hamburger menu */}
