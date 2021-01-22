@@ -37,7 +37,7 @@ const Navbar = class extends React.Component {
 			<nav className='navbar is-transparent' role='navigation' aria-label='main-navigation'>
 				<div className='container'>
 					<div className='navbar-brand'>
-						<Link to='/' className='navbar-item' title='Logo'>
+						<Link to='/' className='navbar-item' style='font-size: 36px' title='Logo'>
 							{/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}Travel
 						</Link>
 						{/* Hamburger menu */}
@@ -71,7 +71,7 @@ const Navbar = class extends React.Component {
 						<div className='navbar-end has-text-centered'>
 							<a
 								className='navbar-item'
-								href='https://github.com/netlify-templates/gatsby-starter-netlify-cms'
+								href='https://github.com/kirillman200/gatsby-netlify-cms'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<span className='icon'>
